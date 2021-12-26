@@ -1,0 +1,21 @@
+{
+  "name": "uptime_pinger",
+  "version": "0.0.1",
+  "description": "Logs uptime",
+  "main": "dist/index.js",
+  "author": "josh-codes",
+  "license": "GPL-3.0",
+  "private": false,
+  "types": "types",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "net-ping": "^1.2.3"
+  }
+}
